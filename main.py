@@ -440,19 +440,19 @@ if large:
     black_king_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_king.png"), piece_size)
 
 else:
-    white_rook_image = pygame.transform.smoothscale(pygame.image.load("white_rook_small.png"), piece_size)
-    white_pawn_image = pygame.transform.smoothscale(pygame.image.load("white_pawn_small.png"), piece_size)
-    white_knight_image = pygame.transform.smoothscale(pygame.image.load("white_knight_small.png"), piece_size)
-    white_bishop_image = pygame.transform.smoothscale(pygame.image.load("white_bishop_small.png"), piece_size)
-    white_queen_image = pygame.transform.smoothscale(pygame.image.load("white_queen_small.png"), piece_size)
-    white_king_image = pygame.transform.smoothscale(pygame.image.load("white_king_small.png"), piece_size)
+    white_rook_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_rook_small.png"), piece_size)
+    white_pawn_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_pawn_small.png"), piece_size)
+    white_knight_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_knight_small.png"), piece_size)
+    white_bishop_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_bishop_small.png"), piece_size)
+    white_queen_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_queen_small.png"), piece_size)
+    white_king_image = pygame.transform.smoothscale(pygame.image.load("resources/images/white_king_small.png"), piece_size)
 
-    black_rook_image = pygame.transform.smoothscale(pygame.image.load("black_rook_small.png"), piece_size)
-    black_pawn_image = pygame.transform.smoothscale(pygame.image.load("black_pawn_small.png"), piece_size)
-    black_knight_image = pygame.transform.smoothscale(pygame.image.load("black_knight_small.png"), piece_size)
-    black_bishop_image = pygame.transform.smoothscale(pygame.image.load("black_bishop_small.png"), piece_size)
-    black_queen_image = pygame.transform.smoothscale(pygame.image.load("black_queen_small.png"), piece_size)
-    black_king_image = pygame.transform.smoothscale(pygame.image.load("black_king_small.png"), piece_size)
+    black_rook_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_rook_small.png"), piece_size)
+    black_pawn_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_pawn_small.png"), piece_size)
+    black_knight_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_knight_small.png"), piece_size)
+    black_bishop_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_bishop_small.png"), piece_size)
+    black_queen_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_queen_small.png"), piece_size)
+    black_king_image = pygame.transform.smoothscale(pygame.image.load("resources/images/black_king_small.png"), piece_size)
 pygame.display.set_caption("CHESS")
 class piece():
     def __init__(self, piece_type, piece_color):
